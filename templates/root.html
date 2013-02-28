@@ -3,11 +3,14 @@
 	<head>
 		<title>Hello, AngularJS!</title>
 		<script type="text/javascript" src="/static/angular.min.js"></script>
-		<script type="text/javascript" src="/static/my-controllers.js"></script>
 		<script type="text/javascript" src="/static/my-app.js"></script>
+		<script type="text/javascript" src="/static/my-controllers.js"></script>
+		<script type="text/javascript" src="/static/my-directives.js"></script>
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet/less" type="text/css" href="/static/my-style.less" />
+		<script type="text/javascript" src="/static/less-1.3.3.min.js"></script>
 	</head>
 	<body>
-    <div ng-include="'/partials/home.html'">
-    </div>
+    <div ng-include="'/partials/home.html'"></div>
 	</body>
 </html>

@@ -10,17 +10,20 @@ def _root():
 def _partial(filename):
     return open("partials/{0}".format(filename)).read()
 
-@app.route("/api/<thing>")
-def _api(thing):
+@app.route("/api/people")
+def _api():
     return simplejson.dumps([{
-        "name": "Bob",
+        "name": "Bob Jones",
         "age": 42,
+        "weight": 205,
     },{
-        "name": "Joe",
+        "name": "Joe Mason",
         "age": 16,
+        "weight": 120,
     },{
-        "name": "Dave",
+        "name": "Dave Johnson",
         "age": 33,
+        "weight": 185,
     }])
 
 if __name__ == "__main__":

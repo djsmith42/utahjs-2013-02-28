@@ -1,2 +1,1 @@
-angular.module('MyDemoApp', []);
-
+angular.module('MyDemoApp', ["MyDirectives"]);
