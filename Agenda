@@ -1,0 +1,5 @@
+- Show ng-repeat without directives
+- Introduce the directive
+- Show the directive in use a second time on the page
+- Show click handlers
+- Show tests

@@ -9,4 +9,8 @@ function HomePageController($scope, $http) {
         age: 55,
         weight: 197
     }
+
+    $scope.personClicked = function(person) {
+        alert("A person got clicked: " + person.name);
+    }
 }
