@@ -4,7 +4,6 @@ files = [
   JASMINE,
   JASMINE_ADAPTER,
   'static/*.js',
-  'static/my-directives.js',
   'tests/*.js'
 ];
 
